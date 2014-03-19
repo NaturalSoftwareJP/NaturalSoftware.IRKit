@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Get">Get</string>
+  <string name="Post">Post</string>
+  <string name="ApplicationName">NaturalSoftware.IRKit.Android</string>
+</resources>
