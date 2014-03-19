@@ -9,6 +9,10 @@ namespace NaturalSoftware.IRKit
 {
     public class IRKitProvider
     {
+        // https://bugzilla.xamarin.com/show_bug.cgi?id=17936
+        // iOSのデバイス固有で動かない不具合があるらしい。
+        // PCLをXamarinだけにして、戻したら端末でも動いた。
+
         HttpClient client = new HttpClient();
 
         string name;
